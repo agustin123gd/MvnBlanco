@@ -30,7 +30,7 @@ public class App
         before((request, response) -> response.header("Access-Control-Allow-Origin", "*"));
 
         get("/aprobado", (request, response) -> {
-            return "Querido santa, me gustaria sacar un 11, de no ser posible con un 10 estoy feliz.";
+            return "Querido santa, me gustaria sacar un 11, de no ser posible con un 10 estoy feliz.:)";
         });
     }
 }
